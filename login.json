@@ -1,0 +1,17 @@
+{
+  "ruphy": {
+    "command": ["node", "F:/projet ia/server.js"],
+    "password_hash": "e843c90866dec28d1a0e15279e9d1f009aed24da0f73a8f8c9e234f84f2807d0",
+    "name": "Ruphin"
+  },
+  "ruphia": {
+    "command": ["python", "app.py"],
+    "password_hash": "b87aa5270772708aeaed24ad65681618c398f238e7b3bed393af852738243377",
+    "name": "Ruphin"
+  },
+  "ruphia_old": {
+    "command": ["python", "main.py"],
+    "password_hash": "62e1069f0612543714227845f09623e10034a742013f9c6d482594615a133486",
+    "name": "Ruphin"
+  }
+}

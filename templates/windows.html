@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruphia-future ai of world</title>
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='iconeruphia.png') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/windows.css') }}">
+<script src="{{ url_for('static', filename='js/windows.mjs') }}"></script>
+
+</head>
+<body id="page-body">
+    <!-- SIDEBAR -->
+    <div class="sidebar-divine">
+        <div class="sidebar-top">
+            <div class="logo-container">
+                <div class="glow-pulse"></div>
+                <span class="logo-text">RUPHIN OS</span>
+            </div>
+        </div>
+
+        <nav class="nav-menu">
+            <div class="nav-item active" onclick="showTab('chat-section')">
+                <span class="nav-icon">💬</span>
+                <div class="nav-text">
+                    <span class="main-label">Ruphia</span>
+                    <span class="sub-label">Core</span>
+                </div>
+            </div>
+                
+            <div class="nav-item new-chat-btn" onclick="nouveauChat(event)">
+                <span class="big-plus">✦</span>
+                <span class="new-chat-text">New Chat</span>
+            </div>    
+            
+            <div class="nav-item" onclick="showTab('projects-section')">
+                <span class="nav-icon">📂</span>
+                <div class="nav-text">
+                    <span class="main-label">Projets</span>
+                    <span class="sub-label">Workspace</span>
+                </div>
+            </div>
+            <div class="nav-item" onclick="showTab('settings-section')">
+                <span class ="nav-icon">⚙️</span>
+                <div class="nav-text">
+                    <span class="main-label">Ruphia</span>
+                    <span class="sub-label"> Settings</span>
+                </div>
+
+            </div>
+            <div class="nav-item" onclick="showTab('shell-section')">
+                <span class="nav-icon"> >_ </span>
+                <div class="nav-text">
+                    <span class="main-label">Ruphin</span>
+                    <span class="sub-label"> Shell</span>
+                </div>
+
+            </div>
+            
+        </nav>
+
+        <button class="danger-btn" onclick="purgeChat()" style="margin-top: 20px;">EFFACER TOUS LES LOGS</button>
+
+        </DIV>
+    </DIV>
+
+
+<!-- FENÊTRE IA -->
+    <div class="ai-overlay">
+        <div class="header-divine" id="tab-title">New-Ruphia v4.0</div>
+
+        <!-- SECTION CHAT -->
+        <div id="chat-section" class="tab-content" style="display: flex;">
+            <div class="chat-area" id="chatBox">
+                <div class="msg ai-msg">Système Ruphia V4.0 initialisé. Prêt pour l'ingénierie.</div>
+                <div id="typing-indicator" class="msg ai-msg" style="display:none;">Ruphia réfléchit<span id="dots"></span></div>
+            </div>
+            <div class="input-zone">
+                <form id="chatForm" class="pill-input">
+                    <div id="ruphia-voice-container">
+                        <!-- Bouton pour déclencher le micro -->
+                         <button type ="button" id="mic-btn" onclick="toggleEcoute()">
+                            <span id="mic-icon">🎤</span>
+                        </button>
+                        <!-- Zone d'affichage du statut (ex: "J'écoute...") -->
+                         <div id="status-ecoute" class="hidden">Ruphia vous écoute...</div>
+                    </div>
+
+                    <input type="text" id="userInput" placeholder="Tester ruphia ..." autocomplete="off">
+                    <button type="submit" class="send-btn">➤</button>
+                    <!-- Conteneur global pour l'écoute -->
+                    
+
+                </form>
+            </div>
+        </div>
+        <!-- SECTION RUPHIN SHELL -->
+<div id="shell-section" class="tab-content" style="display: none;">
+    
+    
+    <!-- Zone de texte style Terminal -->
+    <div id="shell-output" class="chat-area" style="background: rgba(0,0,0,0.2); font-family: 'Courier New', monospace; color: #00ff7f;">
+        <div class="msg ai-msg" style="background: transparent !important; border: 1px solid rgba(0,255,127,0.2);">
+            [SYSTEM] Ruphia Kernel 4.0.0-Stable<br>
+            [SYSTEM] Mémoire vive : 4Go détectés.<br>
+            [SYSTEM] Ruphia chargé vers windows terminal.<br>
+            [RUPHIA] Shell disponible, ruphia en ligne
+
+        </div>
+    </div>
+    <div id="settings-section" class="tab-content" style="display: none; padding: 20px;">
+    <div class="setting-row">
+        <span>🌞 Mode Jour / 🌌 Nuit</span>
+        <button class="run-btn" onclick="toggleTheme()">SWITCH</button>
+    </div>
+    <div class="setting-row">
+        <span>💾 Sauvegarde des logs</span>
+        <button class="run-btn" onclick="toggleLogs()">ON/OFF</button>
+    </div>
+    <div class="setting-row">
+        <span>🌐 Langue</span>
+        <button class="run-btn" onclick="toggleLang()">FR/EN</button>
+    </div>
+</div>
+
+
+    <!-- Zone d'input identique à mon chat -->
+    <div class="input-zone">
+        <div class="pill-input" style="border-color: rgba(0, 255, 127, 0.3);">
+            <input type="text" id="shell-input" placeholder="Taper une commande système...">
+            <button class="run-btn" onclick="executerShell()">RUN</button>
+        </div>
+    </div>
+</div>
+
+
+        <!-- SECTION PROJETS -->
+        <div id="projects-section" class="tab-content" style="display: none; padding: 20px;">
+            <div class="project-list">
+                <div class="project-card"><span>🐍 main.py</span><button class="run-btn">RUN</button></div>
+                <div class="project-card"><span>📁 modules/</span></div>
+                <DIV class="project-card"><span> 🕑 datetime</span><button class="run-btn">VIEW</button></DIV>
+                <div class="project-card"><span>💻 Ruphin os</span></div>
+                <div class="projet-card"><span><>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- HORLOGE & CANEVAS -->
+    <div id="clock-container" style="position: absolute; bottom: 10px; left: 30px; color: #8ab4f8; font-family: monospace;">
+        <div id="clock"></div>
+    </div>
+    <canvas id="fond-ia"></canvas>
+    <canvas id="visualizer" width="300" height="50"></canvas>
+
+</body>
+</html>
