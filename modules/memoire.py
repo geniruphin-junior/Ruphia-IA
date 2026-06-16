@@ -1,5 +1,5 @@
 memoire = {
-    "createur": "Ruphin bahati ",
+    "createur": "LE MAITRE DE MON SYSTEME  GENIRUPHIN-JUNIOR ",
     "nom_ia": "Ruphia",
-    "nom_user": "Ruphin"
+    "nom_user": "HACKER",
 }

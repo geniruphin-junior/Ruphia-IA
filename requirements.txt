@@ -1,9 +1,7 @@
-numpy ✅
-pandas ✅
-transformers
-diffusers
-torch ✅
-openai
-pytorch
-google-ai
-
+numpy
+flask
+sympy
+sympyEngine
+datetime
+pyttsx3
+psutil

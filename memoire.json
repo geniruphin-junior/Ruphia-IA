@@ -4131,6 +4131,26 @@
         {
             "user": "exit",
             "ia": "Ruphia VERSION 4.0  ne pas encore stable et est en plain d\u00e9bogage et modulations"
+        },
+        {
+            "user": "salut",
+            "ia": "salut \ud83d\ude04, jeune humain moi c'est ruphin "
+        },
+        {
+            "user": "comment ca va ma ruphia",
+            "ia": "Je suis au top \ud83d\udcaa pr\u00eat \u00e0 t\u2019aider !"
+        },
+        {
+            "user": "salut ruphia",
+            "ia": "Salut \u270c,moi c'est ruphia.Comment je peux t\u2019aider  "
+        },
+        {
+            "user": "c est quoi  un langage de programmation",
+            "ia": "C'est un support d'expression technique qui permet aux d\u00e9veloppeurs de r\u00e9soudre des probl\u00e8mes complexes en les divisant en une suite d'instructions \u00e9l\u00e9mentaires."
+        },
+        {
+            "user": "salut",
+            "ia": "Salut \u270c,moi c'est ruphia.Comment je peux t\u2019aider  "
         }
     ]
 }

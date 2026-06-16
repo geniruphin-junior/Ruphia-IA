@@ -1,0 +1,66 @@
+# ==========================================
+# DOSSIERS PERSONNELS & CONFIGURATIONS IA
+# ==========================================
+# Cache les fichiers liés aux clés d'API GPT et Gmini
+*gpt*
+*gmini*
+.env
+.env.*
+
+# ==========================================
+# NETTOYAGE DES LOGOS ET IMAGES SPECIFIQUES
+# ==========================================
+# Ignore absolument tout ce qui commence par "logo"
+logo*
+logo*.*
+
+# ==========================================
+# DOSSIERS D'EXPÉRIMENTATION CONFIDENTIELS
+# ==========================================
+experimentation/
+experimentations/
+
+# ==========================================
+# ENVIRONNEMENTS ET FICHIERS SYSTÈME
+# ==========================================
+node_modules/
+venv/
+.venv/
+env/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+# ==========================================
+# DOSSIERS PERSONNELS & CONFIGURATIONS IA
+# ==========================================
+# Cache les fichiers liés aux clés d'API GPT et Gmini
+*gpt*
+*gmini*
+.env
+.env.*
+
+# ==========================================
+# NETTOYAGE DES LOGOS ET IMAGES SPECIFIQUES
+# ==========================================
+# Ignore absolument tout ce qui commence par "logo"
+logo*
+logo*.*
+
+# ==========================================
+# DOSSIERS D'EXPÉRIMENTATION CONFIDENTIELS
+# ==========================================
+experimentation/
+experimentations/
+
+# ==========================================
+# ENVIRONNEMENTS ET FICHIERS SYSTÈME
+# ==========================================
+node_modules/
+venv/
+.venv/
+env/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
