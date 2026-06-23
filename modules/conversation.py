@@ -1,6 +1,4 @@
-from datetime import (
-    datetime,
-)  # importation du module 'datetime' pour gérer l'heure et les dates
+from datetime import datetime
 import random
 
 # importation des mes modules personnalisés
