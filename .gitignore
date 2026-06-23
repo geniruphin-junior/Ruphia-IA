@@ -66,3 +66,4 @@ Thumbs.db
 .idea/
 login.js
 static/
+__pycache__/
