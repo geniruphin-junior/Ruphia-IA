@@ -65,3 +65,4 @@ Thumbs.db
 .vscode/
 .idea/
 login.js
+static/
