@@ -1,7 +1,7 @@
 # ==========================================
 # DOSSIERS PERSONNELS & CONFIGURATIONS IA
 # ==========================================
-# Cache les fichiers liés aux clés d'API GPT et Gmini
+
 *gpt*
 *gmini*
 .env
