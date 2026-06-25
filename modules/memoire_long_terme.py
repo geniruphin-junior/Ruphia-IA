@@ -12,7 +12,7 @@ def charger_memoire():
         return {"discussions": [], "preferences": {}}
 
     with open(FICHIER_MEMOIRE, "r", encoding="utf-8") as f:
-        return json.load(f)
+        return json.load(f)  # on lit le json
 
 
 def sauvegarder_memoire(memoire):
