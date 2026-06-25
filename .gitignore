@@ -70,3 +70,4 @@ __pycache__/
 .png
 .jpg
 .docx
+os.py
