@@ -9,7 +9,9 @@
 
 Before diving into complex system automation, Ruphin set out on a clear mission: connecting local youth and his developer group through technology. He achieved this by engineering **DevChat**, a high-performance, real-time messaging application.
 
-But connecting his community was just the first step. Soon after, Ruphin launched himself into a wild and bold engineering adventure: building an autonomous, futuristic, and highly intelligent local AI chat assistant capable of deeply interacting with and controlling the operating system. **Ruphia 5.0** was born from this exact breakthrough—proving that emotional drive, technical excellence, and dedication can turn complex ideas into a professional-grade reality.
+But connecting his community was just the first step. Soon after, Ruphin launched himself into a wild and bold engineering adventure: building an autonomous, futuristic, and highly intelligent local AI chat assistant capable of deeply interacting with and controlling the operating system. **Ruphia 5.0 was born from 8 months of intensive research and development.**
+
+This journey was far from easy. It took months of pure dedication, during which several earlier versions completely failed. Undeterred, Ruphin coded, failed, and recoded the core architecture from scratch multiple times until it reached professional-grade stability. Once the backend engine was solid, he leveled up the entire project by designing and building a dynamic graphical user interface using HTML, CSS, and native JavaScript.
 
 Today, this journey continues to expand into data processing and advanced analytics, showing that no technical boundary can stop a passionate mind.
 
