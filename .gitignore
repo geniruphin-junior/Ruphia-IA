@@ -60,10 +60,13 @@ node_modules/
 venv/
 .venv/
 env/
-.DS_Store
+ss.DS_Store
 Thumbs.db
 .vscode/
 .idea/
 login.js
 static/
 __pycache__/
+.png
+.jpg
+.docx
