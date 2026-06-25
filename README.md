@@ -1,4 +1,4 @@
-# Ruphia 5.0,4.0: The Autonomous System Core 🤖🛡️
+# Ruphia 5.0, 4.0: The Autonomous System Core 🤖🛡️
 
 > _“Many believe coding is just about understanding syntax. To me, it is about surpassing your limits to reach your true human potential.”_  
 > — Ruphin (13yo), Creator & Lead Architect of Ruphia 🇨🇩
@@ -70,8 +70,7 @@ matplotlib>=3.8.0
 plotly>=5.15.0
 python-docx>=1.1.0
 pdfplumber>=0.10.0
-pdfminer.six>=20231228, and so on...
-
+pdfminer.six>=20231228
 ```
 
 ---
@@ -84,10 +83,23 @@ If you are a developer looking to experiment with this architecture, the baselin
 
 **_If this engineering journey inspires you, consider leaving a ⭐ Star on the repository to support future architectural builds!_**
 
-## Others versions of ruphia
+---
+
+## 📸 Other Versions of Ruphia
 
 ![Ruphia 2.0](one.png)
 
 ![Ruphia 4.0 mode morning](light.png)
 
 ![Ruphia last](last.png)
+
+![Ruphia backend](backend.png)
+
+---
+
+## 📩 Contact & Collaboration
+
+For business inquiries, professional opportunities, or technical collaboration, feel free to reach out:
+
+- **Email:** [📧 Send an Email](mailto:geniruphin@gmail.com) (`geniruphin@gmail.com`)
+- **Developer Profile:** Ruphin — Lead Architect
