@@ -15,10 +15,10 @@ logo*
 logo*.*
 
 # ==========================================
-# DOSSIERS D'EXPÉRIMENTATION CONFIDENTIELS
+# DOSSIERS D'EXPÉRIMENTATION CONFIDENTIELs
 # ==========================================
-experimentation/
-experimentations/
+
+experimentations/ 
 
 # ==========================================
 # ENVIRONNEMENTS ET FICHIERS SYSTÈME
