@@ -97,7 +97,7 @@ def executer_commande(message):
         try:
             chemin = message.split("found folder")[
                 1
-            ].stript()  # on coupe le message en deux parties et on recupere le chemin
+            ].stript()  # on coupe le message en deux parties et on recupere le chemin utile pour moi
             os.mkdir(chemin)  # la touche de geni qui va  créer le  dossier qu'on désire
             return f"Dossier {chemin} est créé sur votre projet"
 
