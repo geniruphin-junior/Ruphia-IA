@@ -91,5 +91,3 @@ If you are a developer looking to experiment with this architecture, the baselin
 ![Ruphia 4.0 mode morning](light.png)
 
 ![Ruphia last](last.png)
-
-![Ruphia backend](backend.png)
