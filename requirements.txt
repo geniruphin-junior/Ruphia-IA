@@ -1,9 +1,0 @@
-numpy
-flask
-sympy
-sympyEngine
-datetime
-pyttsx3
-psutil
-pandas
-hashlib
