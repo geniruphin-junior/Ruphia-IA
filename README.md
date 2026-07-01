@@ -1,4 +1,4 @@
-# Ruphia 5.0, 4.0: The Autonomous System Core 🤖🛡️
+# Ruphia: The Autonomous System Core 🤖🛡️
 
 > _“Many believe coding is just about understanding syntax. To me, it is about surpassing your limits to reach your true human potential.”_  
 > — Ruphin (13yo), Creator & Lead Architect of Ruphia 🇨🇩
